@@ -1,6 +1,10 @@
+<div align="center">
+
 # GroupChat-App
 
-The "GroupChat-App" repository is a production-ready application for group chat functionality. It provides a robust and scalable solution for facilitating real-time communication among users in a group setting. The application is designed to handle high traffic loads and maintain a seamless user experience.
+The <span style="color:#f36a13; font-weight:bold;">GroupChat-App</span> repository is a production-ready application for group chat functionality. It provides a robust and scalable solution for facilitating real-time communication among users in a group setting. The application is designed to handle high traffic loads and maintain a seamless user experience.
+
+</div>
 
 ## Key Features
 
@@ -26,3 +30,20 @@ The "GroupChat-App" repository is a production-ready application for group chat 
 
 The "server" package.json file includes the following dependencies:
 
+```json
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.3",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0",
+    "socket.io": "^4.6.2"
+  }
+}
